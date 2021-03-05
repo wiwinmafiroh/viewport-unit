@@ -9,6 +9,17 @@ body {
   line-height: 1.8em;
 }
 
+header {
+  /* fallback bg */
+  background-color: #ccc;
+  background-image: url(img/image.jpg);
+  background-size: cover;
+  background-position: center;
+  /* 100% dari tinggi viewport yang dilihat */
+  height: 100vh;
+  display: flex;
+}
+
 h1 {
   /* font-size: 64px */
   font-size: 4rem;
@@ -17,6 +28,7 @@ h1 {
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, .8);
   text-align: center;
+  margin: auto;
 }
 
 section {
