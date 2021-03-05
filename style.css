@@ -21,8 +21,10 @@ header {
 }
 
 h1 {
-  /* font-size: 64px */
-  font-size: 4rem;
+  /* font-size: 64px
+  font-size: 4rem; */
+  /* 4% dari lebar viewport. semakin lebar viewport, maka ukuran font semakin besar. semakin kecil viewport, ukuran font semakin kecil */
+  font-size: 4vw;
   /* line-height: 76.8px */
   line-height: 1.2em;
   color: white;
