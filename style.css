@@ -5,14 +5,14 @@
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  /* line-height: 28,8px */
+  /* line-height: 28.8px */
   line-height: 1.8em;
 }
 
 h1 {
   /* font-size: 64px */
   font-size: 4rem;
-  /* line-height: 19,2px */
+  /* line-height: 76.8px */
   line-height: 1.2em;
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, .8);
@@ -25,17 +25,22 @@ section {
 }
 
 section .detail {
+  /* font-size: 22.4px */
   font-size: 1.4rem;
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  /* padding: 11.2px 0 */
   padding: .5em 0;
   margin-bottom: 2em;
   color: #333;
 }
 
 section p {
+  /* font-size: 19.2px */
   font-size: 1.2em;
+  /* margin-bottom: 19.2px */
   margin-bottom: 1em;
+  /* text-indent: 19.2px */
   text-indent: 1em;
 }
